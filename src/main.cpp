@@ -34,7 +34,7 @@ int main()
     std::cout << "Initialization Success!!!" << std::endl;
   PID pid;
   // TODO: Initialize the pid variable.
-    pid.Init(0.1,0.01,5.0);
+    pid.Init(0.1,0.001,5.0);
     std::cout << "Initialization Success!!!" << std::endl;
     std::cout << "Kp = " << pid.Kp << std::endl;
     std::cout << "Kd = " << pid.Kd << std::endl;
